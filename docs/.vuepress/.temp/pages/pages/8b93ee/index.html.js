@@ -20,26 +20,13 @@ export const data = {
   "headers": [],
   "filePathRelative": "technology/browser/data/image.md",
   "git": {
-    "updatedTime": 1656670125000,
+    "updatedTime": 1657677456000,
     "contributors": [
       {
         "name": "yunchao.mei",
         "email": "",
-        "commits": 3
+        "commits": 1
       }
     ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

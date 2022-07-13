@@ -95,7 +95,7 @@ export const data = {
   ],
   "filePathRelative": "technology/web-runtime/tools/less.md",
   "git": {
-    "updatedTime": 1656670125000,
+    "updatedTime": 1657677456000,
     "contributors": [
       {
         "name": "yunchao.mei",
@@ -104,17 +104,4 @@ export const data = {
       }
     ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

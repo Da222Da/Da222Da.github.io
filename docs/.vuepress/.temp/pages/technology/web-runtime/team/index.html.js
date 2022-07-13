@@ -8,12 +8,6 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "Overall",
-      "slug": "overall",
-      "children": []
-    },
-    {
-      "level": 2,
       "title": "Usage",
       "slug": "usage",
       "children": [
@@ -28,20 +22,13 @@ export const data = {
   ],
   "filePathRelative": "technology/web-runtime/team/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1657677456000,
+    "contributors": [
+      {
+        "name": "yunchao.mei",
+        "email": "",
+        "commits": 1
+      }
+    ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

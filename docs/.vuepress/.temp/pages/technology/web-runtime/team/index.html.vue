@@ -1,10 +1,5 @@
 <template><h1 id="团队协作规范与实践" tabindex="-1"><a class="header-anchor" href="#团队协作规范与实践" aria-hidden="true">#</a> 团队协作规范与实践</h1>
-<nav class="table-of-contents"><ul><li><RouterLink to="#overall">Overall</RouterLink></li><li><RouterLink to="#usage">Usage</RouterLink><ul><li><RouterLink to="#_1-如何规范团队-commit-message-代码提交信息">1.如何规范团队 Commit Message 代码提交信息？</RouterLink></li></ul></li></ul></nav>
-<h2 id="overall" tabindex="-1"><a class="header-anchor" href="#overall" aria-hidden="true">#</a> Overall</h2>
-<blockquote>
-<p>团队的作用与意义？</p>
-<p>团结一切可以团结的力量，去打败我们真正地敌人。—— 《毛选》</p>
-</blockquote>
+<nav class="table-of-contents"><ul><li><RouterLink to="#usage">Usage</RouterLink><ul><li><RouterLink to="#_1-如何规范团队-commit-message-代码提交信息">1.如何规范团队 Commit Message 代码提交信息？</RouterLink></li></ul></li></ul></nav>
 <h2 id="usage" tabindex="-1"><a class="header-anchor" href="#usage" aria-hidden="true">#</a> Usage</h2>
 <h3 id="_1-如何规范团队-commit-message-代码提交信息" tabindex="-1"><a class="header-anchor" href="#_1-如何规范团队-commit-message-代码提交信息" aria-hidden="true">#</a> 1.如何规范团队 Commit Message 代码提交信息？</h3>
 <CodeGroup>
@@ -14,8 +9,8 @@
 <span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`npm i -g commitizen`</span> commitizen cli，用于规范化 git commit 提交信息。
 
 <span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`commitizen init cz-conventional-changelog --save-dev --save-exact`</span>
+  <span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`cz-conventional-changelog`</span>的作用：让 commitizen 具备友好地选择提示功能
   <span class="token list punctuation">-</span> 该指令会自动帮我们安装并配置 cz-conventional-changelog
-  <span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`cz-conventional-changelog`</span>的作用：让 commitizen 具备友好地提示功能
   <span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`--save-exact`</span>的作用：固定 cz-conventional-changelog 依赖包的版本，避免出现小版本
 
 之后,<span class="token code-snippet code keyword">`git cz`</span>替代<span class="token code-snippet code keyword">`git commit`</span> => commitizen CLI 便会帮我们自动完成 commit 规范化。
