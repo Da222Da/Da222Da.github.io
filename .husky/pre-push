@@ -2,10 +2,25 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # 确保脚本抛出遇到的错误
-# set -e
-echo "push"
-# 将项目源码提交到blogs分支
-git remote add origin "https://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@github.com/Da222Da/Da222Da.github.io.git"
-git push -f -u origin blogs
+set -e
 
-# cd -
+# 生成静态文件
+rm -rf ../docs/.vuepress/dist
+npm run build
+
+
+# 进入生成的文件夹
+cd ../docs/.vuepress/dist
+
+git init
+git config --local user.name 'Da222Da'
+git config --local user.email '15826653490@163.com'
+git add .
+git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io
+git branch -m master gh-pages
+git remote add origin "https://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@github.com/Da222Da/Da222Da.github.io.git"
+git push -f -u origin gh-pages
+
+cd -
