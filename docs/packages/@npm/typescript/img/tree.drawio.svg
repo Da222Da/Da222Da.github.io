@@ -1,0 +1,100 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="531px" height="351px" viewBox="-0.5 -0.5 531 351" content="&lt;mxfile&gt;&lt;diagram id=&quot;tq4Ll5lf8j6BXpXowF_J&quot; name=&quot;第 1 页&quot;&gt;7VhRb5swEP41flwFAYJ5DIRsD600LZO2PbrBAa8GR8Zpkv76nY0JoTRTuqTZSyQU+T7fGfu7z2cH5CXl9rMkq+JBZJSjkZNtkTdFo1HoBPCrgV0DBKEFcsmyBnI7YM5eqAUdi65ZRuueoxKCK7bqgwtRVXShehiRUmz6bkvB+29dkZwOgPmC8CH6g2WqaFA8Cjv8C2V50b7ZHUdNT0laZ7uSuiCZ2BxAXoq8RAqhmla5TSjX3LW8NHGzI737iUlaqZMCxnYeatcujmawVmsKqQqRi4rwtEPjQpUcOl1o0i1TP6Ht3AXW+nXQM9UJd1pj1xqVkruDIG3+OuzrwozVxi3W8plmdvhm2nquR1duoVqs5cJ6jaxYiMyp9fL2rINaqSgpvBJcJOVEsef+6MTqJt/7ddRCw7J7hOnwH5juLfk/0X4xpsMrMW1f/Uz42g76fbeC7SvZSg1zwDlUDc31pmCKzlfErGADdatPuR2USkW3fydiuEQbMIr8JmTX1sHG3HQ1xG0LQ3FQP7BzPinegBRVQ3lcsvzudy0qlEYIBwhPURqieIomKUrHKBojHKLUR3GM4mGl+HjGIqdH2Mg/kbHxBRgLB4wZblxNRhqgKEU4NohnkFD/RrMBSfWGlZxUWmFLUal2v5uCVjCe3ZOdWOtp14osnlorLoRkL+BPWjahWyp7FHpOz2OuI+2Yktbg87Vl2H0FPZBtz/Ge1KqdjeCcrGr2aOanA0vYvKyKhVKi7BWDs3Lq4xOS6r+RVPcS+wAPsvoJTC12PNNPilE8Q7FjVI/Nhgg0PpnZRoR1rqMJwr5BUp10aExCowdAHBQnAxkAX8pkUYonmgguJOCVaHTBOH8FEc7yCkxOlzpME87g/jGxcMmyzBwQNew+VuX3xm3qd8g3y5uGBIQvublmFBBIYYR4JVilDI9BDA8wm+hzIYC5JmC7nQ2PdpcqERVMnzCTZgrC2VAtnlgKRRR53Mv6JI0cOQysJrwTJeFdQBHRyYqAghiYhtnrNv+3bJ+d7fEVs93+hTgh3YHe9HFkEBdN3Fu6L5Pu6Jrp9t+RbmyuPt02xzrpE2x8Uv2AD2QfDw/5mwDeI4D9le0qCgjec+LH5i431sVdd7113zNHP6l2NxGcJ4Lg40QAZvcJxfQdfIfy0j8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-394-200-132-30-0">
+            <rect x="394" y="200" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-394-230-132-30-0">
+            <rect x="394" y="230" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-394-260-132-30-0">
+            <rect x="394" y="260" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-394-290-132-30-0">
+            <rect x="394" y="290" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-394-320-132-30-0">
+            <rect x="394" y="320" width="132" height="30"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 264 80 Q 264 125 162 125 Q 60 125 60 163.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 60 168.88 L 56.5 161.88 L 60 163.63 L 63.5 161.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 264 80 Q 264 125 362 125 Q 460 125 460 163.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 460 168.88 L 456.5 161.88 L 460 163.63 L 463.5 161.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="264" cy="40" rx="60" ry="40" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 40px; margin-left: 205px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                TypeScript
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="264" y="44" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    TypeScript
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="170" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 200px; margin-left: 1px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                tsconfig.json配置文件
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="204" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    tsconfig.json配置文件
+                </text>
+            </switch>
+        </g>
+        <path d="M 390 200 L 390 170 L 530 170 L 530 200" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 390 200 L 390 350 L 530 350 L 530 200" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 390 200 L 530 200" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="459.5" y="189.5">
+                类型系统
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-394-200-132-30-0)" font-size="12px">
+            <text x="395.5" y="219.5">
+                - 描述不可变的原始值
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-394-230-132-30-0)" font-size="12px">
+            <text x="395.5" y="249.5">
+                - 描述数组值
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-394-260-132-30-0)" font-size="12px">
+            <text x="395.5" y="279.5">
+                - 描述对象值
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-394-290-132-30-0)" font-size="12px">
+            <text x="395.5" y="309.5">
+                - 描述函数表达式
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-394-320-132-30-0)" font-size="12px">
+            <text x="395.5" y="339.5">
+                - 描述任意类型的any
+            </text>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

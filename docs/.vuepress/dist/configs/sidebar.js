@@ -1,0 +1,1 @@
+module.exports={"/laboratory/":[{text:"实验--概述",link:"/laboratory/README.md"}],"/technology/javascript/":["/technology/javascript/",{text:"JavaScript 代码组织",children:[{text:"JavaScript 数据类型与指令",link:"/technology/javascript/organization/"}]}]};
