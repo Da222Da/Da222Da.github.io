@@ -2,11 +2,10 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # 确保脚本抛出遇到的错误
-set -e
-
+# set -e
+echo "push"
 # 将项目源码提交到blogs分支
 git remote add origin "https://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@github.com/Da222Da/Da222Da.github.io.git"
-git push -f -u origin gh-pages
+git push -f -u origin blogs
 
-
-cd -
+# cd -
