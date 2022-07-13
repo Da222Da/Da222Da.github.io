@@ -97,10 +97,6 @@ export const themeData = {
                 {
                   "text": "图标字符库emoji",
                   "link": "https://www.webfx.com/tools/emoji-cheat-sheet/"
-                },
-                {
-                  "text": "markdown-it markdown解析插件",
-                  "link": "https://github.com/markdown-it/markdown-it"
                 }
               ]
             }

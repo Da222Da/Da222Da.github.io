@@ -49,7 +49,7 @@ module.exports = [
                     { text: 'VuePress', link: 'https://v2.vuepress.vuejs.org/zh/' },
                     { text: "vuePress-snippetors系列插件", link: "https://snippetors.github.io/plugins/vuepress-plugin-code-copy.html" },
                     { text: '图标字符库emoji', link: 'https://www.webfx.com/tools/emoji-cheat-sheet/' },
-                    // { text: 'markdown-it markdown解析插件', link: 'https://github.com/markdown-it/markdown-it' }
+                    { text: 'markdown-it markdown解析插件', link: 'https://github.com/markdown-it/markdown-it' }
                 ]
             }
         ],
