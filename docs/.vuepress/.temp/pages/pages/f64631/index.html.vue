@@ -1,6 +1,6 @@
-<template><h1 id="browser-event-浏览器事件机制" tabindex="-1"><a class="header-anchor" href="#browser-event-浏览器事件机制" aria-hidden="true">#</a> Browser Event 浏览器事件机制</h1>
+<template><div><h1 id="browser-event-浏览器事件机制" tabindex="-1"><a class="header-anchor" href="#browser-event-浏览器事件机制" aria-hidden="true">#</a> Browser Event 浏览器事件机制</h1>
 <div class="custom-container tip"><p class="custom-container-title">TIP</p>
-<nav class="table-of-contents"><ul><li><RouterLink to="#简介-整体角度了解浏览器事件机制">简介：整体角度了解浏览器事件机制</RouterLink><ul><li><RouterLink to="#_1-事件-javascript-与-html-的交互方式。">1.事件：JavaScript 与 HTML 的交互方式。</RouterLink></li><li><RouterLink to="#_2-事件流-描述了页面接收事件的顺序。">2.事件流：描述了页面接收事件的顺序。</RouterLink></li><li><RouterLink to="#_3-事件处理程序">3.事件处理程序</RouterLink></li><li><RouterLink to="#_4-事件对象-event">4.事件对象 Event</RouterLink></li><li><RouterLink to="#_5-事件类型">5.事件类型</RouterLink></li></ul></li><li><RouterLink to="#use">Use</RouterLink><ul><li><RouterLink to="#_01-阻止-a-链接默认点击事件自动跳转-href-属性值的行为">01. 阻止 a 链接默认点击事件自动跳转 href 属性值的行为</RouterLink></li><li><RouterLink to="#_02-在-dom-事件流中-如何控制事件处理程序的执行顺序">02.在 DOM 事件流中，如何控制事件处理程序的执行顺序？</RouterLink></li></ul></li></ul></nav>
+<nav class="table-of-contents"><ul><li><router-link to="#简介-整体角度了解浏览器事件机制">简介：整体角度了解浏览器事件机制</router-link><ul><li><router-link to="#_1-事件-javascript-与-html-的交互方式。">1.事件：JavaScript 与 HTML 的交互方式。</router-link></li><li><router-link to="#_2-事件流-描述了页面接收事件的顺序。">2.事件流：描述了页面接收事件的顺序。</router-link></li><li><router-link to="#_3-事件处理程序">3.事件处理程序</router-link></li><li><router-link to="#_4-事件对象-event">4.事件对象 Event</router-link></li><li><router-link to="#_5-事件类型">5.事件类型</router-link></li></ul></li><li><router-link to="#use">Use</router-link><ul><li><router-link to="#_01-阻止-a-链接默认点击事件自动跳转-href-属性值的行为">01. 阻止 a 链接默认点击事件自动跳转 href 属性值的行为</router-link></li><li><router-link to="#_02-在-dom-事件流中-如何控制事件处理程序的执行顺序">02.在 DOM 事件流中，如何控制事件处理程序的执行顺序？</router-link></li></ul></li></ul></nav>
 </div>
 <h2 id="简介-整体角度了解浏览器事件机制" tabindex="-1"><a class="header-anchor" href="#简介-整体角度了解浏览器事件机制" aria-hidden="true">#</a> 简介：整体角度了解浏览器事件机制</h2>
 <h3 id="_1-事件-javascript-与-html-的交互方式。" tabindex="-1"><a class="header-anchor" href="#_1-事件-javascript-与-html-的交互方式。" aria-hidden="true">#</a> 1.事件：JavaScript 与 HTML 的交互方式。</h3>
@@ -13,13 +13,13 @@
 <ul>
 <li>事件流的主要形式：
 <ul>
-<li>冒泡事件流<code>div(click) -&gt; body -&gt; html -&gt; #document</code></li>
-<li>捕获事件流<code>#document -&gt; html -&gt; body -&gt; div(click)</code></li>
-<li>(主流)DOM 事件流<code>捕获阶段 -&gt; 达到事件源 -&gt; 冒泡阶段</code>
+<li>冒泡事件流<code v-pre>div(click) -&gt; body -&gt; html -&gt; #document</code></li>
+<li>捕获事件流<code v-pre>#document -&gt; html -&gt; body -&gt; div(click)</code></li>
+<li>(主流)DOM 事件流<code v-pre>捕获阶段 -&gt; 达到事件源 -&gt; 冒泡阶段</code>
 <ul>
-<li>1.捕获阶段<code>#document -&gt; html -&gt; body</code></li>
+<li>1.捕获阶段<code v-pre>#document -&gt; html -&gt; body</code></li>
 <li>2.达到事件源</li>
-<li>3.冒泡阶段<code>div(目标元素) -&gt; body -&gt; html -&gt; #document</code></li>
+<li>3.冒泡阶段<code v-pre>div(目标元素) -&gt; body -&gt; html -&gt; #document</code></li>
 </ul>
 </li>
 </ul>
@@ -29,26 +29,26 @@
 <div class="custom-container danger"><p class="custom-container-title">什么是事件处理程序？</p>
 <p>假设你点击了一个按钮。</p>
 <p>我们希望这个点击事件在事件流传递过程中，当传递到按钮的时候，打印一句&quot;Hello World&quot;。</p>
-<p>我们可以利用事件监听器<code>例如，addEventListener</code>来定义事件处理程序。</p>
+<p>我们可以利用事件监听器<code v-pre>例如，addEventListener</code>来定义事件处理程序。</p>
 </div>
 <ul>
-<li>(不推荐)以 HTML 属性的形式<code>例如，&lt;button onclick=&quot;console.log('Clike Me')&quot;&gt;Click&lt;/button&gt;</code></li>
+<li>(不推荐)以 HTML 属性的形式<code v-pre>例如，&lt;button onclick=&quot;console.log('Clike Me')&quot;&gt;Click&lt;/button&gt;</code></li>
 <li>(不推荐)JavaScript 程序 &amp;&amp; DOM0
 <ul>
-<li>添加事件处理程序<code>例如，document.getElementById(&quot;Click&quot;).onclick = () =&gt; {};</code></li>
-<li>移除事件处理程序<code>例如，document.getElementById(&quot;Click&quot;).onclick = null;</code></li>
+<li>添加事件处理程序<code v-pre>例如，document.getElementById(&quot;Click&quot;).onclick = () =&gt; {};</code></li>
+<li>移除事件处理程序<code v-pre>例如，document.getElementById(&quot;Click&quot;).onclick = null;</code></li>
 </ul>
 </li>
 <li>JavaScript 程序 &amp;&amp; DOM2
 <ul>
-<li>添加事件处理程序<code>addEventListener('click', () =&gt; {}, false)</code>
+<li>添加事件处理程序<code v-pre>addEventListener('click', () =&gt; {}, false)</code>
 <ul>
 <li>参数 1：事件名</li>
 <li>参数 2：事件处理函数</li>
-<li>参数 3：布尔值<code>true 在捕获阶段调用事件处理程序，false（默认值）在冒泡阶段调用事件处理程序。</code></li>
+<li>参数 3：布尔值<code v-pre>true 在捕获阶段调用事件处理程序，false（默认值）在冒泡阶段调用事件处理程序。</code></li>
 </ul>
 </li>
-<li>移除事件处理程序<code>removeEventListener('click', () =&gt; {}, false)</code></li>
+<li>移除事件处理程序<code v-pre>removeEventListener('click', () =&gt; {}, false)</code></li>
 </ul>
 </li>
 </ul>
@@ -128,7 +128,7 @@
 </ol>
 </div>
 <ul>
-<li>用户界面事件（UIEvent）<code>涉及与 BOM 交互的通用浏览器事件。</code>
+<li>用户界面事件（UIEvent）<code v-pre>涉及与 BOM 交互的通用浏览器事件。</code>
 <ul>
 <li>load 事件
 <ul>
@@ -149,7 +149,7 @@
     e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></details>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
 <h3 id="_02-在-dom-事件流中-如何控制事件处理程序的执行顺序" tabindex="-1"><a class="header-anchor" href="#_02-在-dom-事件流中-如何控制事件处理程序的执行顺序" aria-hidden="true">#</a> 02.在 DOM 事件流中，如何控制事件处理程序的执行顺序？</h3>
 <details class="custom-container details"><summary>（例子）给 button 和 body 绑定事件，来理解触发事件执行函数的顺序</summary>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myBtn<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Clicked<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
@@ -194,5 +194,5 @@
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br></div></div></details>
-</template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+</div></template>

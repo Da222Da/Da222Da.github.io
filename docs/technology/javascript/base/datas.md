@@ -1,4 +1,4 @@
-# JavaScript 数据类型与指令
+# JavaScript 给我们提供的数据类型
 
 ::: tip
 [[toc]]
@@ -71,4 +71,3 @@ var arr = ["red", "green", "blue"];
 
 ::::
 
-## 三、JavaScript 指令

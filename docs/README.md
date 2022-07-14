@@ -6,7 +6,7 @@ actions:
     link: /laboratory/
 features:
   - title: Target
-    details: Use computer science computing to solve real needs of people.  Thus, allow yourself to become better.
+    details: Build up a body of knowledge about Turing machines.
   - title: What is an experiment?
     details: The so-called experiment is to unite the technical means that we can unite to solve real problems for users.
   - title: What is technology?

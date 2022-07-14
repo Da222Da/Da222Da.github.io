@@ -1,5 +1,5 @@
-<template><h1 id="团队协作规范与实践" tabindex="-1"><a class="header-anchor" href="#团队协作规范与实践" aria-hidden="true">#</a> 团队协作规范与实践</h1>
-<nav class="table-of-contents"><ul><li><RouterLink to="#usage">Usage</RouterLink><ul><li><RouterLink to="#_1-如何规范团队-commit-message-代码提交信息">1.如何规范团队 Commit Message 代码提交信息？</RouterLink></li></ul></li></ul></nav>
+<template><div><h1 id="团队协作规范与实践" tabindex="-1"><a class="header-anchor" href="#团队协作规范与实践" aria-hidden="true">#</a> 团队协作规范与实践</h1>
+<nav class="table-of-contents"><ul><li><router-link to="#usage">Usage</router-link><ul><li><router-link to="#_1-如何规范团队-commit-message-代码提交信息">1.如何规范团队 Commit Message 代码提交信息？</router-link></li></ul></li></ul></nav>
 <h2 id="usage" tabindex="-1"><a class="header-anchor" href="#usage" aria-hidden="true">#</a> Usage</h2>
 <h3 id="_1-如何规范团队-commit-message-代码提交信息" tabindex="-1"><a class="header-anchor" href="#_1-如何规范团队-commit-message-代码提交信息" aria-hidden="true">#</a> 1.如何规范团队 Commit Message 代码提交信息？</h3>
 <CodeGroup>
@@ -16,7 +16,7 @@
 之后,<span class="token code-snippet code keyword">`git cz`</span>替代<span class="token code-snippet code keyword">`git commit`</span> => commitizen CLI 便会帮我们自动完成 commit 规范化。
 
 了解更多，<span class="token url">[<span class="token content">约定式提交规范官网</span>](<span class="token url">https://www.conventionalcommits.org/zh-hans/v1.0.0/</span>)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></CodeGroupItem>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
 <CodeGroupItem title="2.如何检查团队成员每次的 commit 信息是否符合规范？">
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># 安装校验工具@commitlint/cli、以及校验规则@commitlint/config-conventional</span>
 <span class="token function">npm</span> <span class="token function">install</span> -D @commitlint/cli @commitlint/config-conventional
@@ -40,6 +40,6 @@ npx husky <span class="token function">add</span> .husky/commit-msg <span class=
 <span class="token comment"># 测试</span>
 <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
 <span class="token function">git</span> cz
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div></CodeGroupItem>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
 </CodeGroup>
-</template>
+</div></template>

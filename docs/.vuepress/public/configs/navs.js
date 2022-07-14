@@ -6,8 +6,7 @@ module.exports = [
             {
                 text: "Programming(编程)",
                 children: [
-                    { text: '- JavaScript 编程语言规范', link: '/technology/javascript/' },
-                    // { text: '- 代码管理解决方案', link: '/technology/code-manager/' },
+                    { text: '- JavaScript 编程语言设计与规范', link: '/technology/javascript/' },
                 ]
             },
             {
