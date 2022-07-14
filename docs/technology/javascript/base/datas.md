@@ -1,7 +1,9 @@
 # JavaScript 给我们提供的数据类型
 
 ::: tip
+
 [[toc]]
+
 :::
 
 ## 一、JavaScript 原始数据类型
