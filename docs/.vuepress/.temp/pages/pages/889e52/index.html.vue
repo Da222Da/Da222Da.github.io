@@ -1,6 +1,6 @@
-<template><div><h1 id="typescript-调研报告" tabindex="-1"><a class="header-anchor" href="#typescript-调研报告" aria-hidden="true">#</a> Typescript 调研报告</h1>
+<template><h1 id="typescript-调研报告" tabindex="-1"><a class="header-anchor" href="#typescript-调研报告" aria-hidden="true">#</a> Typescript 调研报告</h1>
 <div class="custom-container tip"><p class="custom-container-title">typescript 能将 JavaScript 从动态弱类型语言变成动态强类型语言。</p>
-<nav class="table-of-contents"><ul><li><router-link to="#笔记"># 笔记</router-link><ul><li><router-link to="#_1-typescript-能帮我们的-javascript-代码代码哪些改变">1.typescript 能帮我们的 JavaScript 代码代码哪些改变？</router-link></li><li><router-link to="#_2-typescript-为什么要新增数据类型-void">2.typescript 为什么要新增数据类型 void？</router-link></li></ul></li><li><router-link to="#附录-a-typescript-tree"># 附录 A：TypeScript Tree</router-link><ul><li><router-link to="#一、tsconfig-json-配置文件">一、tsconfig.json 配置文件</router-link></li><li><router-link to="#二、类型注解">二、类型注解</router-link></li></ul></li><li><router-link to="#附录-b-参考链接"># 附录 B：参考链接</router-link><ul><li><router-link to="#_1-typescript-官网文档">1.TypeScript 官网文档</router-link></li></ul></li></ul></nav>
+<nav class="table-of-contents"><ul><li><RouterLink to="#笔记"># 笔记</RouterLink><ul><li><RouterLink to="#_1-typescript-能帮我们的-javascript-代码代码哪些改变">1.typescript 能帮我们的 JavaScript 代码代码哪些改变？</RouterLink></li><li><RouterLink to="#_2-typescript-为什么要新增数据类型-void">2.typescript 为什么要新增数据类型 void？</RouterLink></li></ul></li><li><RouterLink to="#附录-a-typescript-tree"># 附录 A：TypeScript Tree</RouterLink><ul><li><RouterLink to="#一、tsconfig-json-配置文件">一、tsconfig.json 配置文件</RouterLink></li><li><RouterLink to="#二、类型注解">二、类型注解</RouterLink></li></ul></li><li><RouterLink to="#附录-b-参考链接"># 附录 B：参考链接</RouterLink><ul><li><RouterLink to="#_1-typescript-官网文档">1.TypeScript 官网文档</RouterLink></li></ul></li></ul></nav>
 </div>
 <h2 id="笔记" tabindex="-1"><a class="header-anchor" href="#笔记" aria-hidden="true">#</a> # 笔记</h2>
 <h3 id="_1-typescript-能帮我们的-javascript-代码代码哪些改变" tabindex="-1"><a class="header-anchor" href="#_1-typescript-能帮我们的-javascript-代码代码哪些改变" aria-hidden="true">#</a> 1.typescript 能帮我们的 JavaScript 代码代码哪些改变？</h3>
@@ -30,13 +30,13 @@
   <span class="token comment">// return undefined</span>
 <span class="token punctuation">}</span>
 <span class="token function">add</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></details>
 <h2 id="附录-a-typescript-tree" tabindex="-1"><a class="header-anchor" href="#附录-a-typescript-tree" aria-hidden="true">#</a> # 附录 A：TypeScript Tree</h2>
 <h3 id="一、tsconfig-json-配置文件" tabindex="-1"><a class="header-anchor" href="#一、tsconfig-json-配置文件" aria-hidden="true">#</a> 一、tsconfig.json 配置文件</h3>
 <ul>
 <li>
 <ol>
-<li><code v-pre>tsc --init</code> 初始化 tsconfig.json</li>
+<li><code>tsc --init</code> 初始化 tsconfig.json</li>
 </ol>
 </li>
 </ul>
@@ -54,6 +54,6 @@
     <span class="token list punctuation">-</span> 2-3-3. nerve 永远不可能有返回值的函数<span class="token code-snippet code keyword">`例如，let error = () => { throw new Error('error') } || let endless = () => { while(true) {} }`</span>
   <span class="token list punctuation">-</span> 2-4.描述对象值 <span class="token code-snippet code keyword">`例如，let obj: {x: number, y: number} = { x: 1, y: 2}`</span>
   <span class="token list punctuation">-</span> 2-5.any 任意类型
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="附录-b-参考链接" tabindex="-1"><a class="header-anchor" href="#附录-b-参考链接" aria-hidden="true">#</a> # 附录 B：参考链接</h2>
-<h3 id="_1-typescript-官网文档" tabindex="-1"><a class="header-anchor" href="#_1-typescript-官网文档" aria-hidden="true">#</a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">1.TypeScript 官网文档<ExternalLinkIcon/></a></h3>
-</div></template>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="附录-b-参考链接" tabindex="-1"><a class="header-anchor" href="#附录-b-参考链接" aria-hidden="true">#</a> # 附录 B：参考链接</h2>
+<h3 id="_1-typescript-官网文档" tabindex="-1"><a class="header-anchor" href="#_1-typescript-官网文档" aria-hidden="true">#</a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">1.TypeScript 官网文档<OutboundLink/></a></h3>
+</template>

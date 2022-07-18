@@ -1,10 +1,10 @@
-<template><div><h1 id="函数式编程" tabindex="-1"><a class="header-anchor" href="#函数式编程" aria-hidden="true">#</a> 函数式编程</h1>
+<template><h1 id="函数式编程" tabindex="-1"><a class="header-anchor" href="#函数式编程" aria-hidden="true">#</a> 函数式编程</h1>
 <div class="custom-container tip"><p class="custom-container-title">TIP</p>
-<nav class="table-of-contents"><ul><li><router-link to="#overall">Overall</router-link><ul><li><router-link to="#_1-what-什么是函数式编程">1.(what)什么是函数式编程？</router-link></li><li><router-link to="#_2-why-为什么要进行函数式编程">2.(why)为什么要进行函数式编程？</router-link></li><li><router-link to="#_3-how-to-如何进行函数式编程呢">3.(how to) 如何进行函数式编程呢？</router-link></li><li><router-link to="#_3-1-高阶函数-high-order-function">3-1.高阶函数(high-order function)</router-link></li><li><router-link to="#_3-2-柯里化函数-currying-function">3-2.柯里化函数(currying function)</router-link></li></ul></li></ul></nav>
+<nav class="table-of-contents"><ul><li><RouterLink to="#overall">Overall</RouterLink><ul><li><RouterLink to="#_1-what-什么是函数式编程">1.(what)什么是函数式编程？</RouterLink></li><li><RouterLink to="#_2-why-为什么要进行函数式编程">2.(why)为什么要进行函数式编程？</RouterLink></li><li><RouterLink to="#_3-how-to-如何进行函数式编程呢">3.(how to) 如何进行函数式编程呢？</RouterLink></li><li><RouterLink to="#_3-1-高阶函数-high-order-function">3-1.高阶函数(high-order function)</RouterLink></li><li><RouterLink to="#_3-2-柯里化函数-currying-function">3-2.柯里化函数(currying function)</RouterLink></li></ul></li></ul></nav>
 </div>
 <h2 id="overall" tabindex="-1"><a class="header-anchor" href="#overall" aria-hidden="true">#</a> Overall</h2>
 <h3 id="_1-what-什么是函数式编程" tabindex="-1"><a class="header-anchor" href="#_1-what-什么是函数式编程" aria-hidden="true">#</a> 1.(what)什么是函数式编程？</h3>
-<p>假如说数学公式是用来描述数字之间的映射关系<code v-pre>例如，y=2x, 描述了 xy 之间的映射关系</code></p>
+<p>假如说数学公式是用来描述数字之间的映射关系<code>例如，y=2x, 描述了 xy 之间的映射关系</code></p>
 <p>那么，函数则是编程语言用来描述代码之间映射关系的形式。</p>
 <p>其最大的特征就是输入和输出，且相同的输入无论执行多少次函数？输出结果也都相同。</p>
 <p>所以说，函数式编程 =&gt; 公式编程</p>
@@ -39,7 +39,7 @@ eat<span class="token punctuation">.</span><span class="token function-variable 
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"吃完上厕所"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token function">eatAfter</span><span class="token punctuation">(</span><span class="token string">"米饭"</span><span class="token punctuation">,</span> <span class="token string">"猪肉"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div></details>
 <h3 id="_3-2-柯里化函数-currying-function" tabindex="-1"><a class="header-anchor" href="#_3-2-柯里化函数-currying-function" aria-hidden="true">#</a> 3-2.柯里化函数(currying function)</h3>
 <details class="custom-container details"><summary>理解柯里化函数(currying function)</summary>
 <p>柯里化函数：</p>
@@ -64,6 +64,6 @@ eat<span class="token punctuation">.</span><span class="token function-variable 
 
 <span class="token keyword">let</span> isNumber <span class="token operator">=</span> <span class="token function">checkType</span><span class="token punctuation">(</span><span class="token string">"Number"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// isNumber(2)</span>
 <span class="token keyword">let</span> isString <span class="token operator">=</span> <span class="token function">checkType</span><span class="token punctuation">(</span><span class="token string">"String"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// isString('2')</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></details>
 <p>函数式编程就是灵活、巧妙地运用上述概念。</p>
-</div></template>
+</template>

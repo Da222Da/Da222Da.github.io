@@ -1,7 +1,7 @@
-<template><div><h1 id="babel-调研报告" tabindex="-1"><a class="header-anchor" href="#babel-调研报告" aria-hidden="true">#</a> Babel 调研报告</h1>
+<template><h1 id="babel-调研报告" tabindex="-1"><a class="header-anchor" href="#babel-调研报告" aria-hidden="true">#</a> Babel 调研报告</h1>
 <div class="custom-container tip"><p class="custom-container-title">TIP</p>
 <p>Babel 是一个 JavaScript 语法转换工具</p>
-<p><a href="https://www.babeljs.cn/docs/" target="_blank" rel="noopener noreferrer">Babel 官网<ExternalLinkIcon/></a></p>
+<p><a href="https://www.babeljs.cn/docs/" target="_blank" rel="noopener noreferrer">Babel 官网<OutboundLink/></a></p>
 </div>
 <h2 id="需求" tabindex="-1"><a class="header-anchor" href="#需求" aria-hidden="true">#</a> 需求</h2>
 <ul>
@@ -17,12 +17,12 @@
 </ul>
 <h2 id="解决方案-use-babel" tabindex="-1"><a class="header-anchor" href="#解决方案-use-babel" aria-hidden="true">#</a> 解决方案 &amp;&amp; Use Babel</h2>
 <p>Babel 工具链就能帮助我们解决上述问题以及类似的 JS 语法转换的问题。</p>
-<p>而 Babel 的使用也十分简单，只要安装一个主包<code v-pre>npm i -D @babel/core</code>，然后根据自己实际的需求安装对应的辅助包，babel 辅助包的类型有以下两个：</p>
+<p>而 Babel 的使用也十分简单，只要安装一个主包<code>npm i -D @babel/core</code>，然后根据自己实际的需求安装对应的辅助包，babel 辅助包的类型有以下两个：</p>
 <ul>
 <li>1.plugins 类型: 每一个 plugin 包对应着一个功能，解决某个特定的问题。</li>
 <li>2.presets 类型: 一个 preset 包相当于多个 plugin 的集合，解决某一类问题。</li>
 </ul>
-<p>知道这些之后，再将我们用到的配置选项(Babel Options)，放到一个名为<code v-pre>.babelrc.js</code>的文件中，即可。测试代码如下：</p>
+<p>知道这些之后，再将我们用到的配置选项(Babel Options)，放到一个名为<code>.babelrc.js</code>的文件中，即可。测试代码如下：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// .babelrc.js</span>
 
 <span class="token punctuation">{</span>
@@ -32,4 +32,4 @@
     <span class="token punctuation">]</span>
 <span class="token punctuation">}</span>
 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div></template>

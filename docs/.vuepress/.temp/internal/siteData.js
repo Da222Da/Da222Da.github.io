@@ -1,4 +1,26 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"Turing\",\"description\":\"图灵机 —— 无限纸带计算模型实践与应用\",\"head\":[[\"meta\",{\"charset\":\"UTF-8\"}],[\"link\",{\"rel\":\"shortcut icon\",\"href\":\"./favicon.png\",\"type\":\"image/x-icon\"}]],\"locales\":{}}")
+export const siteData = {
+  "base": "/",
+  "lang": "en-US",
+  "title": "Turing",
+  "description": "图灵机 —— 无限纸带计算模型实践与应用",
+  "head": [
+    [
+      "meta",
+      {
+        "charset": "UTF-8"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "shortcut icon",
+        "href": "./favicon.png",
+        "type": "image/x-icon"
+      }
+    ]
+  ],
+  "locales": {}
+}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

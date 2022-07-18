@@ -1,4 +1,4 @@
-<template><div><h1 id="npminstall-调研报告" tabindex="-1"><a class="header-anchor" href="#npminstall-调研报告" aria-hidden="true">#</a> npminstall 调研报告</h1>
+<template><h1 id="npminstall-调研报告" tabindex="-1"><a class="header-anchor" href="#npminstall-调研报告" aria-hidden="true">#</a> npminstall 调研报告</h1>
 <div class="custom-container tip"><p class="custom-container-title">npminstall 给我们带来了什么？</p>
 <p>使用 npminstall 能让我们以 js 代码的方式来安装 npm 包</p>
 </div>
@@ -6,7 +6,7 @@
 <h3 id="_1-需求" tabindex="-1"><a class="header-anchor" href="#_1-需求" aria-hidden="true">#</a> 1.需求：</h3>
 <ul>
 <li>执行 index.js 文件，安装 vue@2</li>
-<li>将 vue@2 安装到指定目录<code v-pre>path.resolve(homedir(), &quot;.zhangxianjie-cli-dev&quot;, &quot;node_modules&quot;)</code></li>
+<li>将 vue@2 安装到指定目录<code>path.resolve(homedir(), &quot;.zhangxianjie-cli-dev&quot;, &quot;node_modules&quot;)</code></li>
 </ul>
 <h3 id="_2-代码如下" tabindex="-1"><a class="header-anchor" href="#_2-代码如下" aria-hidden="true">#</a> 2.代码如下：</h3>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> npminstall <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"npminstall"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -30,4 +30,4 @@
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div></template>
