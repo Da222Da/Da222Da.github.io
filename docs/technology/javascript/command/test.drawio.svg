@@ -1,0 +1,78 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="521px" height="325px" viewBox="-0.5 -0.5 521 325" content="&lt;mxfile&gt;&lt;diagram id=&quot;GjO5FJ0xHvLAoFobCdje&quot; name=&quot;第 1 页&quot;&gt;7Vdbb5swGP01lraHTlwChUdMaPfQStWyac8uuGDVYGScJt2v32djQih0S9eq6sOkSLHPd/HlHH82yE/r/aUkbXUtCsqR5xR75K+R57mu48CfRh57JPDPe6CUrLBOI7Bhv6gFbVy5ZQXtJo5KCK5YOwVz0TQ0VxOMSCl2U7c7waejtqSkM2CTEz5Hf7JCVT0aeecj/pWyshpGdsO4t9RkcLYr6SpSiN0R5GfIT6UQqm/V+5RyvXnDvvRxF89YDxOTtFGnBER9wAPhW7s2lJ0j7CKMURag2EHR2s5UPQ7L73as5qSBHr4TjdpYiwt9wlnZQDuH8akE4IFKxWDnEmtQogU0rxgvrsij2OpZdork90MPV0KyX5CWcJsTzFJZEXjhxGOjIwF2AJW0A5+bYenuE+ia7CeOV6RTFsgF56Tt2O1hGTWRJWuwUErU1mm+s3az9Qrp/giyO31JRU2VfAQXa/Viy7qVvefb/m4U0cGnOhbQyrPitcItD7lHbqFh6V2mOp5T7WG9pO0tZ7lmG2iPM5SFKHJQcj7y7yfgNtVFhiKIDZHnu/3m+DqTFAqOGy2M+2vynaHUQ4ljcrIHouirM85EDJwpIy4p7mkquAC1rhvRq5px/gQahM3pnXpW1l1LctaUV8ZnvRqRb5ZLDQmIvePm0FesKGijJSkUUaTXn55tK1ijDNcBhh9sROp8CVAAE0+h7459+Gl3qVLRwFoIM+qkIO4d1QJf0G10sm4HnYanyTRYvV6lQ4mfyPQJdZwZSnrqhgLs/hNvNTDA6UjUd83j+sydkenPyfQXiOPklvIb0THFhM4ve98nhL4DZ9GJpSV6A8rcBcqOK0uI4hDhWDewj+LgcG4/6VZ0gSLPOMH5drS07WGfGrzPwymPEL5A8cpkwaYeBLoe4PTFJepDTGy51n2Iqf0vmq84gNE7Fs3VwgkMuXlNwSzDUrd+XF8NIOQb8QFsB+BsdpdihLOj2PYvob1kTWiUah1nF1ppcaJ1mLgoiXT6ZIVwYsbB5i6HSz3WKj19HEgf6KEga+Qadf9hnMCYAo2AJ5gWx1nWe6Xq8TF6mvSthgEIZreLp9W6q5iiG8D1UDv4TnpW5dumoMXbvULD6SM0nF8U7uIbdPhkeYFQoTt+yhjb0Qehn/0G&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-234-211-282-54-0">
+            <rect x="234" y="211" width="282" height="54"/>
+        </clipPath>
+        <clipPath id="mx-clip-234-273-282-54-0">
+            <rect x="234" y="273" width="282" height="54"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 230 206 L 230 180 L 520 180 L 520 206" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 230 206 L 230 322 L 520 322 L 520 206" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 230 206 L 520 206" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="374.5" y="197.5">
+                类名
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-234-211-282-54-0)" font-size="12px">
+            <text x="235.5" y="223.5">
+                + public属性名: 类型
+            </text>
+            <text x="235.5" y="237.5">
+                # protected 属性名: 类型
+            </text>
+            <text x="235.5" y="251.5">
+                -  private 属性名: 类型
+            </text>
+        </g>
+        <path d="M 230 264 L 520 264" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-234-273-282-54-0)" font-size="12px">
+            <text x="235.5" y="285.5">
+                + public方法名(参数1, 参数2): 返回值类型
+            </text>
+            <text x="235.5" y="299.5">
+                # protected 方法名(参数1, 参数2): 返回值类型
+            </text>
+            <text x="235.5" y="313.5">
+                -  private 方法名(参数1, 参数2): 返回值类型
+            </text>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 1px; padding-top: 0px; margin-left: 5px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 130px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    UML
+                                </h1>
+                                <p>
+                                    - 类图
+                                </p>
+                                <p>
+                                    - 泛化：表示继承
+                                </p>
+                                <p>
+                                    - 关联：表示引用
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="5" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    UML...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

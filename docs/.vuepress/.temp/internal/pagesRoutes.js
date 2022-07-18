@@ -2,8 +2,8 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-8daa1a0e","/","",["/index.html","/README.md"]],
-  ["v-434f4180","/pages/53c0aa/","README",["/pages/53c0aa/index.html","/packages/","/packages/README.md"]],
   ["v-cb09a37a","/laboratory/","实验室",["/laboratory/index.html","/laboratory/README.md"]],
+  ["v-434f4180","/pages/53c0aa/","README",["/pages/53c0aa/index.html","/packages/","/packages/README.md"]],
   ["v-5af44f27","/pages/1bc413/","README",["/pages/1bc413/index.html","/technology/browser/","/technology/browser/README.md"]],
   ["v-fdf28302","/technology/code-manager/git.html","Git",["/technology/code-manager/git","/technology/code-manager/git.md"]],
   ["v-0658559e","/technology/code-manager/github.html","GitHub",["/technology/code-manager/github","/technology/code-manager/github.md"]],
@@ -25,16 +25,20 @@ const routeItems = [
   ["v-46d577ba","/pages/52b184/","canvas",["/pages/52b184/index.html","/technology/browser/graph/canvas.html","/technology/browser/graph/canvas.md"]],
   ["v-0b09d19a","/pages/f29b69/","html",["/pages/f29b69/index.html","/technology/browser/graph/html.html","/technology/browser/graph/html.md"]],
   ["v-003a0c12","/pages/f4e033/","README",["/pages/f4e033/index.html","/technology/browser/graph/","/technology/browser/graph/README.md"]],
-  ["v-5dcfa554","/technology/javascript/base/datas.html","JavaScript 给我们提供的数据类型",["/technology/javascript/base/datas","/technology/javascript/base/datas.md"]],
+  ["v-a5499f64","/technology/javascript/command/functional-programming.html","函数式编程",["/technology/javascript/command/functional-programming","/technology/javascript/command/functional-programming.md"]],
+  ["v-19d2b1f7","/technology/javascript/command/object-oriented-programming.html","JavaScript 面向对象编程",["/technology/javascript/command/object-oriented-programming","/technology/javascript/command/object-oriented-programming.md"]],
+  ["v-8fba0f48","/technology/javascript/command/","JavaScript 给我们提供的指令",["/technology/javascript/command/index.html","/technology/javascript/command/README.md"]],
+  ["v-5ba9e674","/technology/javascript/data/function.html","Function 函数",["/technology/javascript/data/function","/technology/javascript/data/function.md"]],
+  ["v-bd02e2a6","/technology/javascript/data/","JavaScript 给我们提供的数据类型",["/technology/javascript/data/index.html","/technology/javascript/data/README.md"]],
+  ["v-6baa0518","/technology/javascript/data/symbol.html","Symbol 唯一值",["/technology/javascript/data/symbol","/technology/javascript/data/symbol.md"]],
   ["v-42df6519","/technology/javascript/design/","JavaScript 程序设计",["/technology/javascript/design/index.html","/technology/javascript/design/README.md"]],
-  ["v-6cb94534","/technology/javascript/organization/functional-programming.html","函数式编程",["/technology/javascript/organization/functional-programming","/technology/javascript/organization/functional-programming.md"]],
-  ["v-5d92f3df","/technology/javascript/organization/object-oriented-programming.html","JavaScript 面向对象编程",["/technology/javascript/organization/object-oriented-programming","/technology/javascript/organization/object-oriented-programming.md"]],
   ["v-0e927210","/technology/web-runtime/team/","团队协作规范与实践",["/technology/web-runtime/team/index.html","/technology/web-runtime/team/README.md"]],
   ["v-af2109f2","/pages/440cb3/","jest",["/pages/440cb3/index.html","/technology/web-runtime/tools/jest.html","/technology/web-runtime/tools/jest.md"]],
   ["v-20b90135","/pages/eff9ac/","less",["/pages/eff9ac/index.html","/technology/web-runtime/tools/less.html","/technology/web-runtime/tools/less.md"]],
-  ["v-cabbf0c0","/technology/javascript/organization/data/function.html","Function 函数",["/technology/javascript/organization/data/function","/technology/javascript/organization/data/function.md"]],
-  ["v-18d179a0","/technology/javascript/organization/data/symbol.html","Symbol 唯一值",["/technology/javascript/organization/data/symbol","/technology/javascript/organization/data/symbol.md"]],
   ["v-3706649a","/404.html","",["/404"]],
+  ["v-366757ca","/technology/web-runtime/tools/code-manager/git.html","Git",["/technology/web-runtime/tools/code-manager/git","/technology/web-runtime/tools/code-manager/git.md"]],
+  ["v-02c0a3d4","/technology/web-runtime/tools/code-manager/","代码管理解决方案",["/technology/web-runtime/tools/code-manager/index.html","/technology/web-runtime/tools/code-manager/README.md"]],
+  ["v-d714eafc","/technology/web-runtime/tools/code-manager/github.html","GitHub",["/technology/web-runtime/tools/code-manager/github","/technology/web-runtime/tools/code-manager/github.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

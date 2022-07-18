@@ -3,10 +3,10 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /pages/53c0aa/
-  "v-434f4180": defineAsyncComponent(() => import(/* webpackChunkName: "v-434f4180" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/53c0aa/index.html.vue")),
   // path: /laboratory/
   "v-cb09a37a": defineAsyncComponent(() => import(/* webpackChunkName: "v-cb09a37a" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/laboratory/index.html.vue")),
+  // path: /pages/53c0aa/
+  "v-434f4180": defineAsyncComponent(() => import(/* webpackChunkName: "v-434f4180" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/53c0aa/index.html.vue")),
   // path: /pages/1bc413/
   "v-5af44f27": defineAsyncComponent(() => import(/* webpackChunkName: "v-5af44f27" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/1bc413/index.html.vue")),
   // path: /technology/code-manager/git.html
@@ -49,24 +49,32 @@ export const pagesComponents = {
   "v-0b09d19a": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b09d19a" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/f29b69/index.html.vue")),
   // path: /pages/f4e033/
   "v-003a0c12": defineAsyncComponent(() => import(/* webpackChunkName: "v-003a0c12" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/f4e033/index.html.vue")),
-  // path: /technology/javascript/base/datas.html
-  "v-5dcfa554": defineAsyncComponent(() => import(/* webpackChunkName: "v-5dcfa554" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/base/datas.html.vue")),
+  // path: /technology/javascript/command/functional-programming.html
+  "v-a5499f64": defineAsyncComponent(() => import(/* webpackChunkName: "v-a5499f64" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/command/functional-programming.html.vue")),
+  // path: /technology/javascript/command/object-oriented-programming.html
+  "v-19d2b1f7": defineAsyncComponent(() => import(/* webpackChunkName: "v-19d2b1f7" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/command/object-oriented-programming.html.vue")),
+  // path: /technology/javascript/command/
+  "v-8fba0f48": defineAsyncComponent(() => import(/* webpackChunkName: "v-8fba0f48" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/command/index.html.vue")),
+  // path: /technology/javascript/data/function.html
+  "v-5ba9e674": defineAsyncComponent(() => import(/* webpackChunkName: "v-5ba9e674" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/data/function.html.vue")),
+  // path: /technology/javascript/data/
+  "v-bd02e2a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-bd02e2a6" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/data/index.html.vue")),
+  // path: /technology/javascript/data/symbol.html
+  "v-6baa0518": defineAsyncComponent(() => import(/* webpackChunkName: "v-6baa0518" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/data/symbol.html.vue")),
   // path: /technology/javascript/design/
   "v-42df6519": defineAsyncComponent(() => import(/* webpackChunkName: "v-42df6519" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/design/index.html.vue")),
-  // path: /technology/javascript/organization/functional-programming.html
-  "v-6cb94534": defineAsyncComponent(() => import(/* webpackChunkName: "v-6cb94534" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/organization/functional-programming.html.vue")),
-  // path: /technology/javascript/organization/object-oriented-programming.html
-  "v-5d92f3df": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d92f3df" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/organization/object-oriented-programming.html.vue")),
   // path: /technology/web-runtime/team/
   "v-0e927210": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e927210" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/web-runtime/team/index.html.vue")),
   // path: /pages/440cb3/
   "v-af2109f2": defineAsyncComponent(() => import(/* webpackChunkName: "v-af2109f2" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/440cb3/index.html.vue")),
   // path: /pages/eff9ac/
   "v-20b90135": defineAsyncComponent(() => import(/* webpackChunkName: "v-20b90135" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/pages/eff9ac/index.html.vue")),
-  // path: /technology/javascript/organization/data/function.html
-  "v-cabbf0c0": defineAsyncComponent(() => import(/* webpackChunkName: "v-cabbf0c0" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/organization/data/function.html.vue")),
-  // path: /technology/javascript/organization/data/symbol.html
-  "v-18d179a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-18d179a0" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/javascript/organization/data/symbol.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/404.html.vue")),
+  // path: /technology/web-runtime/tools/code-manager/git.html
+  "v-366757ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-366757ca" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/web-runtime/tools/code-manager/git.html.vue")),
+  // path: /technology/web-runtime/tools/code-manager/
+  "v-02c0a3d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-02c0a3d4" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/web-runtime/tools/code-manager/index.html.vue")),
+  // path: /technology/web-runtime/tools/code-manager/github.html
+  "v-d714eafc": defineAsyncComponent(() => import(/* webpackChunkName: "v-d714eafc" */"C:/Users/Administrator/Desktop/test/github/Da222Da.github.io/docs/.vuepress/.temp/pages/technology/web-runtime/tools/code-manager/github.html.vue")),
 }

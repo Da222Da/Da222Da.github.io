@@ -11,15 +11,16 @@ module.exports = {
     '/technology/javascript/': [
         "/technology/javascript/",
         {
-            text: "JavaScript 数据类型与指令",
+            text: "JavaScript 数据类型",
             children: [
-                "/technology/javascript/base/datas.md"
+                "/technology/javascript/data/"
             ],
         },
         {
-            text: "JavaScript 编程方式",
+            text: "JavaScript 指令",
             children: [
-                "/technology/javascript/organization/object-oriented-programming.md"
+                "/technology/javascript/command/",
+                "/technology/javascript/command/object-oriented-programming.md"
             ],
         },
     ],

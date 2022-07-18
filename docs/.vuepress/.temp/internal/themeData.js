@@ -2,6 +2,7 @@ export const themeData = {
   "docsDir": "docs",
   "sidebarDepth": 0,
   "lastUpdated": "最后更新时间",
+  "repo": "https://github.com/Da222Da/Da222Da.github.io",
   "locales": {
     "/": {
       "navbar": [
@@ -117,15 +118,16 @@ export const themeData = {
         "/technology/javascript/": [
           "/technology/javascript/",
           {
-            "text": "JavaScript 数据类型与指令",
+            "text": "JavaScript 数据类型",
             "children": [
-              "/technology/javascript/base/datas.md"
+              "/technology/javascript/data/"
             ]
           },
           {
-            "text": "JavaScript 编程方式",
+            "text": "JavaScript 指令",
             "children": [
-              "/technology/javascript/organization/object-oriented-programming.md"
+              "/technology/javascript/command/",
+              "/technology/javascript/command/object-oriented-programming.md"
             ]
           }
         ],
@@ -140,7 +142,6 @@ export const themeData = {
   "navbar": [],
   "logo": null,
   "darkMode": true,
-  "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",
